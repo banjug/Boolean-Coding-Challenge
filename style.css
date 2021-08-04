@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(images/background.jpg);
+  background-size: cover;
+}
+
+/* contenitore */
+.container {
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 50px auto 100px;
+  border-radius: 20px;
+  padding: 100px 0;
+}
+
+/* header */
+.logo {
+  height: 125px;
+  display: block;
+  margin: auto;
+}
+
+.slogan, h2, p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.slogan {
+  color: lime;
+  text-align: center;
+}
+
+/* navbar */
+.navbar {
+  background-color: lime;
+  display: block;
+  width: 90%;
+  padding: 10px;
+  margin: 0 auto 20px;
+  border-radius: 4px;
+}
+
+.pulsanti {
+  text-align: center;
+}
+
+/* main/lista monopattini */
+main {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.monopattino {
+  margin-bottom: 20px;
+}
+
+h2 {
+  display: inline-block;
+  color: white;
+  margin: auto;
+}
+
+p {
+  color: white;
+  margin: 5px auto;
+}
+
+.carica1, .carica2, .carica3 {
+  min-height: 20px;
+  border-radius: 5px;
+}
+
+.carica1 {
+  background-color: greenYellow;
+  width: 40%;
+}
+
+.carica2 {
+  background-color: lime;
+  width: 60%;
+}
+
+.carica3 {
+  background-color: crimson;
+  width: 10%;
+}
